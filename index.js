@@ -27,7 +27,7 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 
 const app = express();
-const port = 3002;
+const port = 3000;
 const homeRouter = require('./routes/home')
 const menuRouter = require('./routes/menu')
 const searchmealRouter = require('./routes/searchmeal')
